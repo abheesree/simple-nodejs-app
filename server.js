@@ -11,7 +11,7 @@ mongoose.connect(mongodb)
 
 
 const app = express();
-app.get('/',(req,res)=>res.send('Hello world Sree'));
+app.get('/',(req,res)=>res.send('Hello world Sree env and prod'));
 
 const port = process.env.PORT || 4000;
 
